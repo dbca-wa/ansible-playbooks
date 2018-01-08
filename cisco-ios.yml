@@ -1,0 +1,6 @@
+- name: Example
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Gather Facts
+      ios_facts: 
