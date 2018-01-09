@@ -1,5 +1,5 @@
-- name: Example
-  hosts: all
+
+- hosts: all
   gather_facts: false
   tasks:
     - name: Gather Facts
